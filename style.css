@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,600&family=Poppins:wght@400;500;600;700&family=Rubik:wght@300;400;500&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fafafa;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  height: 100vh;
+}
+
+nav {
+  z-index: 99;
+}
+
+.nav-item-icons {
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.nav-item-icons img {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-item-links {
+  margin: 0 25px;
+  font-size: 0.9rem;
+}
+
+.nav-item-icons img:hover {
+  transform: translateY(-0.2rem);
+  transition: 100ms ease-in;
+}
+.nav-item-links a:hover {
+  color: #ff9900 !important;
+}
+
+main {
+  width: 100%;
+  padding: 0;
+}
+
+.hero-mobile {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
