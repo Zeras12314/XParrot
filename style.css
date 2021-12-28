@@ -105,6 +105,12 @@ main {
 .parrots-fly {
   margin-top: 5em;
 }
+
+@media (max-width: 400px) {
+  .btn-orange a {
+    font-size: 0.7em;
+  }
+}
 @media (min-width: 768px) {
   .btn-about {
     gap: 5em;
