@@ -116,6 +116,11 @@ main {
   padding: 0;
   margin: 0;
 }
+
+h4 {
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+}
 @media (max-width: 400px) {
   .btn-orange a {
     font-size: 0.8em;
