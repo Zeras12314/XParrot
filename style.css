@@ -140,6 +140,7 @@ h4 {
   font-weight: 500;
   max-width: 28rem;
   margin: 0 auto;
+  margin-bottom: 3em;
 }
 .phase-content ul {
   list-style: none;
