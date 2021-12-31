@@ -123,7 +123,8 @@ h4 {
   letter-spacing: 0.1em;
 }
 
-.btn-learn:hover {
+.btn-learn:hover,
+.btn-subscribe:hover {
   color: #ff9900;
 }
 
@@ -176,6 +177,19 @@ h4 {
 .founder-img {
   max-width: 30rem;
 }
+
+.stay-in-touch {
+  border: 3px solid #ff9900;
+  border-radius: 1rem;
+}
+
+::placeholder {
+  font-size: 0.9em;
+}
+
+.stay-in-touch {
+  max-width: 40rem;
+}
 @media (max-width: 400px) {
   .btn-orange a {
     font-size: 0.8em;
@@ -185,6 +199,10 @@ h4 {
 @media (min-width: 576px) {
   .pie-chart {
     width: 80%;
+  }
+
+  ::placeholder {
+    font-size: 1em;
   }
 }
 @media (min-width: 768px) {
@@ -283,5 +301,14 @@ h4 {
 @media (min-width: 1400px) {
   .about-parrots-img {
     padding-top: 5em;
+  }
+
+  .stay-in-touch {
+    max-width: 45rem;
+  }
+
+  .form-wrapper {
+    margin: 0 1.5em;
+    padding-top: 1.5em;
   }
 }
