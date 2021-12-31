@@ -342,6 +342,9 @@ h4 {
 }
 
 @media (min-width: 1200px) {
+  .footer-section-page ul li {
+    margin-right: 4rem;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -356,5 +359,9 @@ h4 {
   .form-wrapper {
     margin: 0 1.5em;
     padding-top: 1.5em;
+  }
+
+  .footer-section-page ul li {
+    margin-right: 5rem;
   }
 }
