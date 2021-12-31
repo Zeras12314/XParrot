@@ -24,12 +24,14 @@ nav {
   z-index: 99;
 }
 
-.nav-item-icons {
+.nav-item-icons,
+.footer-item-icons {
   padding-left: 20px;
   cursor: pointer;
 }
 
-.nav-item-icons img {
+.nav-item-icons img,
+.footer-item-icons img {
   width: 25px;
   height: 25px;
 }
@@ -39,11 +41,13 @@ nav {
   font-size: 0.9rem;
 }
 
-.nav-item-icons img:hover {
+.nav-item-icons img:hover,
+.footer-item-icons img:hover {
   transform: translateY(-0.2rem);
   transition: 100ms ease-in;
 }
-.nav-item-links a:hover {
+.nav-item-links a:hover,
+.footer-section-page ul li a:hover {
   color: #ff9900 !important;
 }
 
@@ -189,6 +193,45 @@ h4 {
 
 .stay-in-touch {
   max-width: 40rem;
+  margin-bottom: 4em;
+}
+
+.footer-section-page ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 2rem;
+}
+
+.footer-section-page ul li a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.footer-section-page ul {
+  padding-left: 0;
+}
+
+.footer-item-icons img {
+  margin: 0 1rem 0 0;
+}
+
+.footer {
+  border-top: 1px solid #fafafa50;
+  border-bottom: 1px solid #fafafa50;
+  padding-bottom: 1rem;
+}
+.copyright {
+  font-size: 0.8em;
+}
+
+.disclaimer a {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+.disclaimer a:hover {
+  text-decoration: underline;
 }
 @media (max-width: 400px) {
   .btn-orange a {
@@ -208,6 +251,9 @@ h4 {
 @media (min-width: 768px) {
   .btn-about {
     gap: 5em;
+  }
+
+  .footer-section-page {
   }
 }
 
