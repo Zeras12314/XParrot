@@ -164,6 +164,17 @@ h4 {
 .charity-flex2 img {
   max-width: 15rem;
 }
+
+.founder-content h5 {
+  font-weight: 300;
+  font-size: 0.9em;
+  letter-spacing: 0.6em;
+  margin-bottom: 1.5em;
+}
+
+.founder-img {
+  max-width: 30rem;
+}
 @media (max-width: 400px) {
   .btn-orange a {
     font-size: 0.8em;
