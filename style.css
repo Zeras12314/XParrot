@@ -140,7 +140,9 @@ h4 {
   font-weight: 500;
   max-width: 28rem;
   margin: 0 auto;
-  margin-bottom: 3em;
+  margin-bottom: 2.5em;
+  position: relative;
+  text-transform: upper;
 }
 .phase-content ul {
   list-style: none;
@@ -153,6 +155,10 @@ h4 {
   font-size: 2em;
   display: inline-block;
   width: 1em;
+}
+
+.phase-heading {
+  text-transform: uppercase;
 }
 @media (max-width: 400px) {
   .btn-orange a {
@@ -206,6 +212,56 @@ h4 {
 
   .blockholed-wallet {
     text-align: left;
+  }
+
+  .phase-content-1::before {
+    content: "";
+    width: 3.5px;
+    height: 3.2rem;
+    background-color: #ff9900;
+    position: absolute;
+    top: -3.2rem;
+    right: 50%;
+    z-index: -12;
+  }
+
+  .phase-content-2::before {
+    content: "";
+    width: 3.5px;
+    height: 6.8rem;
+    background-color: #ff9900;
+    position: absolute;
+    top: -6.8rem;
+    right: 50%;
+    z-index: -12;
+  }
+
+  .phase-content-3::before {
+    content: "";
+    width: 3.5px;
+    height: 10rem;
+    background-color: #ff9900;
+    position: absolute;
+    top: -10rem;
+    right: 50%;
+    z-index: -12;
+  }
+
+  .phase-heading {
+    background-color: #ff9900;
+    color: #000;
+  }
+
+  .phase-heading-1 {
+    margin-bottom: 3rem;
+  }
+
+  .phase-heading-2 {
+    margin-bottom: 6rem;
+  }
+
+  .phase-heading-3 {
+    margin-bottom: 9rem;
   }
 }
 
