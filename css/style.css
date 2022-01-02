@@ -233,6 +233,10 @@ h4 {
 .disclaimer a:hover {
   text-decoration: underline;
 }
+
+.footer-section-page ul li a {
+  color: #ffffff80;
+}
 @media (max-width: 400px) {
   .btn-orange a {
     font-size: 0.8em;
