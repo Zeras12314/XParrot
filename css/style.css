@@ -237,6 +237,32 @@ h4 {
 .footer-section-page ul li a {
   color: #ffffff80;
 }
+
+.logo {
+  width: 10.62rem;
+}
+
+.buy-xparrot {
+  background-color: #ff9900;
+  border-radius: 0.5rem;
+  color: #000;
+  max-width: 65rem;
+}
+
+.buy-xparrot button {
+  background-color: #000;
+}
+
+.buy-xparrot button a {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+.buy-xparrot button:hover {
+  transition: 100ms ease-in;
+  background-color: #fff;
+}
+
 @media (max-width: 400px) {
   .btn-orange a {
     font-size: 0.8em;
@@ -255,9 +281,6 @@ h4 {
 @media (min-width: 768px) {
   .btn-about {
     gap: 5em;
-  }
-
-  .footer-section-page {
   }
 }
 
@@ -342,6 +365,11 @@ h4 {
 
   .phase-heading-3 {
     margin-bottom: 9rem;
+  }
+
+  .buy-xparrot button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
   }
 }
 
