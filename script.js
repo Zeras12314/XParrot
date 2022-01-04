@@ -24,6 +24,9 @@ imageIndexes.forEach((i) => {
   div.appendChild(image);
 
   const title = document.createElement("p");
+  if (i < 10) {
+    i = `0${i}`;
+  }
   title.innerHTML = `XParrot #0${i}`;
   title.classList.add("p-text", "text-center", "my-3");
   div.appendChild(title);
