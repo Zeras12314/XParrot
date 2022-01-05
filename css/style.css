@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-item-links {
-  margin: 0 25px;
+  margin: 0 0.8rem;
   font-size: 0.9rem;
 }
 
@@ -267,6 +267,24 @@ h4 {
   min-width: 5.75rem;
 }
 
+.btn-buy {
+  display: none;
+}
+
+.btn-buy a {
+  color: #ff9900;
+  text-decoration: none;
+  border: 2px solid #ff9900;
+  padding: 0.5em 0.8em;
+  margin-left: 2em;
+  border-radius: 0.2em;
+  font-weight: 600;
+}
+
+.btn-buy a:hover {
+  background-color: #ff9900;
+  color: #000;
+}
 @media (max-width: 400px) {
   .btn-orange a {
     font-size: 0.8em;
@@ -387,6 +405,10 @@ h4 {
 @media (min-width: 1200px) {
   .footer-section-page ul li {
     margin-right: 4rem;
+  }
+
+  .btn-buy {
+    display: block;
   }
 }
 
