@@ -289,6 +289,22 @@ h4 {
 .title {
   font-size: 1.2rem;
 }
+
+.gallery-learn {
+  text-decoration: none;
+  margin-left: 0.5em;
+  font-style: normal;
+}
+
+.gallery-learn:hover {
+  color: #ff9900;
+  text-decoration: underline;
+}
+.gallery-text {
+  font-size: 0.8em;
+
+  font-weight: 200;
+}
 @media (max-width: 400px) {
   .btn-orange a {
     font-size: 0.8em;
