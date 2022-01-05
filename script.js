@@ -15,7 +15,7 @@ const imageIndexes = [
 
 imageIndexes.forEach((i) => {
   const div = document.createElement("div");
-  div.classList.add("col-lg-3", "col-4", "px-3");
+  div.classList.add("col-lg-3", "col-12", "col-md-6", "px-3");
   const image = document.createElement("img");
   image.src = `./galllery/XPARROT-0${i}.jpeg`;
   image.alt = `XParrot image ${i}`;
@@ -28,6 +28,6 @@ imageIndexes.forEach((i) => {
     i = `0${i}`;
   }
   title.innerHTML = `XParrot #0${i}`;
-  title.classList.add("p-text", "text-center", "my-3");
+  title.classList.add("p-text", "text-center", "my-3", "title");
   div.appendChild(title);
 });

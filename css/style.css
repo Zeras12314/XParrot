@@ -285,6 +285,10 @@ h4 {
   background-color: #ff9900;
   color: #000;
 }
+
+.title {
+  font-size: 1.2rem;
+}
 @media (max-width: 400px) {
   .btn-orange a {
     font-size: 0.8em;
@@ -292,10 +296,6 @@ h4 {
 }
 
 @media (max-width: 420px) {
-  .galery-img-title {
-    font-size: 0.7rem;
-    line-height: 1rem;
-  }
 }
 
 @media (min-width: 576px) {
@@ -310,6 +310,10 @@ h4 {
 @media (min-width: 768px) {
   .btn-about {
     gap: 5em;
+  }
+
+  .title {
+    font-size: 1rem;
   }
 }
 
